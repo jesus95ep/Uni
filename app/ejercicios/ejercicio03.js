@@ -23,9 +23,8 @@ Ejercicio 3: Pipeline Contable de Métricas de Ventas (ejercicio03.js)
 */
 
 const cobradoConIVA = facturas
-      .filter(cadaUnaDeLasFacturas => cadaUnaDeLasFacturas.pagada);
-   //   .map()
-   //   .reduce();
+  
+      //   .reduce();
 console.log('\n======= COLECCIÓN ORIGINAL ==================');
 console.table(facturas);   
 console.log('======= COBRADAS (con IVA) ==================');
