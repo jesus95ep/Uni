@@ -1,5 +1,7 @@
-/*Ejercicio 3: Pipeline Contable de Métricas de Ventas (ejercicio03.js)
-    • Objetivo: Aplicar el encadenamiento de métodos (Method Chaining) procesando datos con .filter(), .map() y .reduce().
+/*
+Ejercicio 3: Pipeline Contable de Métricas de Ventas (ejercicio03.js)
+    • Objetivo: Aplicar el encadenamiento de métodos (Method Chaining) procesando 
+    datos con .filter(), .map() y .reduce().
     • Consigna: Dada la lista de facturas registradas en un sistema:
  */
       const facturas = [
@@ -13,7 +15,9 @@
 1. Construí un Pipeline Funcional encadenado en una sola sentencia que realice lo siguiente:
             ▪ Filtrar solo las facturas que estén cobradas (pagada === true).
             ▪ Mapear para calcular el monto final reteniendo un 21% de IVA (monto * 1.21).
-            ▪ Reducir para obtener el monto total facturado final acumulado.
+            ▪ Reducir para obtener el monto total facturado final acumulado (cobrado).
 2. Imprimí el resultado con el formato: Total cobrado con IVA: $X.
-3. Responder ¿Qué ocurre si el arreglo de entrada está vacío? ¿Cómo se evita que .reduce() arroje un error en tiempo de ejecución?
+3. Imprimí el resultado con el total con y sin IVA de las facturas pendientes de cobro.
+4. Responder ¿Qué ocurre si el arreglo de entrada (facturas) está vacío? ¿Cómo se evita
+     que .reduce() arroje un error en tiempo de ejecución?
 */
