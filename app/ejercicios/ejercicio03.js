@@ -21,3 +21,12 @@ Ejercicio 3: Pipeline Contable de Métricas de Ventas (ejercicio03.js)
 4. Responder ¿Qué ocurre si el arreglo de entrada (facturas) está vacío? ¿Cómo se evita
      que .reduce() arroje un error en tiempo de ejecución?
 */
+
+const cobradoConIVA = facturas
+      .filter(cadaUnaDeLasFacturas => cadaUnaDeLasFacturas.pagada);
+   //   .map()
+   //   .reduce();
+console.log('\n======= COLECCIÓN ORIGINAL ==================');
+console.table(facturas);   
+console.log('======= COBRADAS (con IVA) ==================');
+console.table(cobradoConIVA);
